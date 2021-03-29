@@ -1,0 +1,80 @@
+.grid-container {
+    display: grid;
+    grid-template-rows: 150px 150px 150px 150px;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-gap: 10px;
+    grid-template-areas: 
+    "area1 area1 area1 area2"
+    "area1 area1 area1 area3"
+    "area4 area4 area5 area6"
+    "area7 area8 area8 area6";
+  }
+
+  .grid-item1{
+      grid-area: area1;
+  }
+
+  .grid-item2{
+    grid-area: area2;
+  }
+
+  .grid-item3{
+    grid-area: area3;
+  }
+
+  .grid-item4{
+    grid-area: area4;
+  }
+
+  .grid-item5{
+    grid-area: area5;
+  }
+
+  .grid-item6{
+    grid-area: area6;
+  }
+
+  .grid-item7{
+    grid-area: area7;
+  }
+
+  .grid-item8{
+    grid-area: area8;
+  }
+
+  img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .title{
+    position: absolute;
+    color: #FFD133;
+    top: 180px;
+    left: 60px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+  }
+  
+  .txt-down1{
+    position: absolute;
+    color: #FFD133;
+    top: 230px;
+    left: 60px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .txt-down2{
+    position: absolute;
+    color: grey;
+    top: 250px;
+    left: 60px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+ 
+
+ 
